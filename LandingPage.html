@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1e3a8a;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #2563eb, #1e40af);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            background: white;
+            color: #1e3a8a;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background: #f3f4f6;
+        }
+
+        .feature-box {
+            background: white;
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .about {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .cta {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature-box {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>MyBrand</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Build Your Dream Website</h1>
+    <p>Learn HTML & CSS by creating real-world projects.</p>
+     <a href="portfolio.html" class="button">Get Started</a>
+</section>
+
+<section class="features">
+    <div class="feature-box">
+        <h3>Easy to Learn</h3>
+        <p>Perfect project for beginners.</p>
+    </div>
+    <div class="feature-box">
+        <h3>Responsive Design</h3>
+        <p>Looks great on all devices.</p>
+    </div>
+    <div class="feature-box">
+        <h3>Creative Layout</h3>
+        <p>Show your design skills.</p>
+    </div>
+</section>
+
+<section class="about">
+    <h2>About This Project</h2>
+    <p>This landing page demonstrates layout design using HTML and CSS only.</p>
+</section>
+
+<section class="cta">
+    <h2>Start Building Today</h2>
+    <p>Practice makes perfect.</p>
+</section>
+
+<footer>
+    <p>© 2026 MyBrand | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
